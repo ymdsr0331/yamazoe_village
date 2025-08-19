@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>山添村の魅力</title>
+        <meta name="description" content="山添村の特産品、有名なものを紹介">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <h1>山添村とはどんなとこ？</h1>
+        <h2>奈良県の北東端に位置</h2>
+        <div class="neighbor-info">
+            <p>三重県伊賀市・名張市・奈良市・宇陀市に隣接</p>
+        </div>
+        <div class="yamazoe-info">
+            <p>のどかな街並みが特徴であり、人口は約3,200人、面積は66.52km²
+            <br>奈良県山添村は、奈良県の東北端に位置し、三重県との県境にある自然豊かな山村です。
+            <br>お茶の産地として知られ、特に大和茶の栽培が盛んです。
+                村内には神野山やめえめえ牧場など、観光や自然体験が楽しめるスポットがあります。</p>
+        </div>
+        <br>
+        今すぐ<a href="https://www.vill.yamazoe.nara.jp/">山添村公式サイト<img src="images/yamazoe00.jpg" alt="山添村の美しい風景" class="yamazoe00"></a>で検索
+        <h2>山添村はこんな人におすすめ！</h2>
+        <ul>
+            <li>のどかな街が好きな人</li>
+            <li>郷土料理を味わいたい人</li>
+            <li>星空が好きな人</li>
+        </ul>
+        <ol>
+            <li>のどかな街が好きな人</li>
+            <li>郷土料理を味わいたい人</li>
+            <li>星空が好きな人</li> 
+        </ol>
+        <div class="sel1">
+        <table border="1"> 
+            <tr>
+                <th>おすすめ観光地</th>
+                <th>料金</th>
+            </tr>
+            <tr>
+                <td>めえめえ牧場</td>
+                <td>無料</td>
+            </tr>
+            <tr>
+                <td>わんぱく動物園</td>
+                <td>無料</td>
+            </tr>
+            <tr>
+                <td>森林科学館</td>
+                <td>無料</td>
+            </tr>
+        </table>
+        </div>
+        <br>
+        <div class="selpicture">
+        <ul>
+            <li><img src="images/meemee.jpg"></li>
+            <li><img src="images/wanpaku.jpg"></li>
+            <li><img src="images/kagakukan.jpg"></li>
+        </ul>
+        </div>
+        <br>
+        <!--表二つ目-->
+        <br>
+
+        <table border="1">
+            <tr>
+                <th colspan="2">大きいセル</th>
+            </tr>
+            <tr>
+                <td>セル１</td>
+                <td>セル2</td>
+            </tr>
+            <tr>
+                <td>セル３</td>
+                <td>セル４</td>
+            </tr>
+        </table>
+          <!--表３つ目-->  
+        <br>
+
+            <table border="1">
+                <tr>
+                    <td colspan="2">ビッグコンテンツ１</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">縦長セル</td>
+                    <td>セル</td>
+                </tr>
+                <tr>
+                    <td>セル</td>
+                </tr>
+            </table>
+        
+        <br>
+        <form action="example.php" method="post" name="contact-form">ここにフォームの部品が入る
+            <br>
+                    名前
+            <br>
+            <input type="text" placeholder="苗字 名前">
+            <br>
+            メールアドレス
+            <br>
+            <input type="email" placeholder="メールアドレス">
+            <br>
+            メッセージ
+            <br>
+            <textarea input type="text"></textarea> 
+            <br>
+            <input type="radio" name="gender" value="男"> 男
+            <input type="radio" name="gender" value="女" checked> 女
+            <input type="radio" name="gender" value="その他"> その他
+            <br>
+            <input type="checkbox" name="color" value="赤" id="red"><label for="red" checked> 赤 </label>
+            <input type="checkbox" name="color" value="青" id="blue"><label for="blue"> 青 </label>
+            <input type="checkbox" name="color" value="黄" id="yellow"><label for="yellow">黄 </label>
+            <input type="checkbox" name="color" value="緑" id="green"><label for="green"> 緑 </label>
+            <br>
+            <input type="submit" value ="送信">
+            <br>
+            血液型<select name="bloodtype">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="O">O</option>
+                <option value="AB">AB</option>
+                <option value="不明">不明</option>
+            </select>
+            
+        </form>
+
+    </body>
+</html>
